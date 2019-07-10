@@ -1,0 +1,14 @@
+#!/usr/bin/env python2.7
+
+import os
+import subprocess
+import sys
+
+import common
+
+def main():
+    for node in common.LoadNodes():
+        node.stop()
+
+if __name__ == '__main__':
+    sys.exit(main())

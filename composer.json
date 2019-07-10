@@ -1,0 +1,13 @@
+{
+    "name": "knorton/memcache",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kelly Norton",
+            "email": "kellegous@gmail.com"
+        }
+    ],
+    "require": {
+      "smarty/smarty": "~3.1"
+    }
+}

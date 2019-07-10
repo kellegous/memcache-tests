@@ -1,0 +1,47 @@
+body {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.node-list {
+    display: flex;
+}
+
+.node-list>.node {
+    width: 300px;
+    background-color: #f6f6f6;
+    margin: 0 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.node-list>.node>h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.node-list>.node>.key-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.node-list>.node>.key-list>.key {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #999;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 4px;
+}
